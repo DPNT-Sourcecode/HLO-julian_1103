@@ -8,6 +8,10 @@ group 'io.befaster'
 repositories {
     mavenLocal()
     mavenCentral()
+
+//    maven {
+//        url  "https://dl.bintray.com/julianghionoiu/maven"
+//    }
 }
 
 dependencies {
@@ -61,4 +65,5 @@ jacocoTestReport {
         html.destination file("${buildDir}/jacocoHtml")
     }
 }
+
 
